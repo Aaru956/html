@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SAMB Cricket Sports Store - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+ body{
+    background-image: bg.jpg;
+  background-repeat:no-repeat;
+ }
+    
+  </style>
+  <body>
+    <header>
+        <div class="logo">
+            <h1 align="center">SAMB Cricket Sports Store</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2 align="center">Your Shopping Cart</h2>
+             <h3 align="center">
+                <img src="bat.png" alt="Cricket Bat">
+                         <span>Cricket Bat</span>
+                         <input type="number" value="______" min="1" class="quantity" data-price="30"><br>
+                          <img src="Kokubura.jpg" alt="Cricket Ball">
+                            <span>Cricket Ball</span>
+                            <input type="number" value="______" min="1" class="quantity" data-price="30">
+            <div class="cart-summary">
+                <div class="subtotal">
+                    <span align="center">Subtotal:</span>
+                    <span id="subtotal">______</span>
+                </div>
+                <div class="shipping">
+                    <span align="center">Shipping:</span>
+                    <span>______</span>
+                </div>
+                <div class="total">
+                    <span align="center">Total:</span>
+                    <span id="total">______</span>
+                </div>
+                 <button class="checkout">Proceed to Checkout</button>
+            </div>
+        </h3>
+        </section>
+    </main>
+
+    <footer align="center">
+        <p>&copy; 2024 SAMB Cricket Sports Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

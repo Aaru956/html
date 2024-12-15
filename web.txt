@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMB Cricket Sports Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d81919;
+            margin: 0;
+            padding: 0;
+            background-image: url('ma.jpg');
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; 
+        }
+
+        header {
+            background-image: url('bg.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: #4CAF50;
+            color: rgba(214, 214, 208, 0.932);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: rgb(181, 209, 23);
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        h2{
+          text-align: center;  
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            font-size: 25px;
+        }
+
+        .category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .category a {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        .category a:hover {
+            background-color: #45a049;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            width: 15%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+
+        .price {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to SAMB Cricket Sports Store.<br>The place where your expectations meet reality.</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#jerseys">Jerseys</a></li>
+                <li><a href="#bats">Bats</a></li>
+                <li><a href="#balls">Balls</a></li>
+                <li><a href="#helmets">Helmets</a></li>
+                <li><a href="about us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>
+            SAMB sports welcome all of you.
+        </h2>
+    </section>
+     
+    <section id="home" class="category">
+        <h3>Explore Our Categories</h3><br>
+        <a href="#jerseys">Jerseys</a>
+        <a href="#bats">Bats</a>
+        <a href="#balls">Balls</a>
+        <a href="#helmets">Helmets</a>
+    </section>
+    <hr>
+    <!-- Jersey Section -->
+    <section id="jerseys">
+        <h3>Our Latest Jersey Collection</h3>
+        <div class="products">
+            <div class="product">
+                <img src="Jersey.jpg" alt="Jersey 1">
+                <h4> Nepal Jersey</h4>
+                <p class="price">Rs 3600</p>
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="Mi.jpg" alt="Mumbai Indians">
+                <h4>MI 2024 jersey</h4>
+                <p class="price">Rs 2500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="mi2.jpg" alt="Mumbai Indians">
+                <h4> MI Jersey 2020</h4>
+                <p class="price">Rs 1500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bats Section -->
+    <section id="bats">
+        <h3>Our Latest Bat Collection</h3>
+        <div class="products">
+            <div class="product">
+                <img src="bat.png" alt="Bat 1">
+                <h4>Ceat Bat</h4>
+                <p class="price">Rs 900</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="mrf.png" alt="Bat 2">
+                <h4>MRF Bat</h4>
+                <p class="price">Rs 800</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sg.webp" alt="Bat 3">
+                <h4>SG Bat</h4>
+                <p class="price">Rs 1200</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            </div>
+    </section>
+
+    <!-- Balls Section -->
+    <section id="balls">
+        <h3>Our Latest Ball Collection</h3>
+        <div class="products">
+            <div class="product">
+                <img src="Kokubura.jpg" alt="Ball 1">
+                <h4>Kokubura Ball</h4>
+                <p class="price">Rs 950</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ds.webp" alt="Ball 2">
+                <h4> Dues Ball</h4>
+                <p class="price">Rs 750</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="drh.jpg" alt="Ball 3">
+                <h4>DRH Ball</h4>
+                <p class="price">Rs 500</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            </div>
+    </section>
+      <hr>
+      <h4 align="center">
+      <a href="cart.html">Your Cart</a>
+      </h4>
+    <footer>
+        <p>&copy; 2024 SAMB Cricket Sports Store</p>
+    </footer>
+</body>
+</html>
